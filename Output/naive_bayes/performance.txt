@@ -1,0 +1,10 @@
+sklearn.naive_bayes
+{"priors": null, "var_smoothing": 1e-09}
+Accuracy:
+0.7741935483870968
+fpr, tpr, AUC:
+[0.0, 0.09090909090909091, 1.0]
+[0.0, 0.4444444444444444, 1.0]
+0.6767676767676768
+Sensitivity Vs. Specificity:
+[0.4444444444444444, 0.9090909090909091]

@@ -1,0 +1,10 @@
+sklearn.svm._classes
+{"C": 1.0, "break_ties": false, "cache_size": 200, "class_weight": {"0": 0.6923076923076923, "1": 1.8}, "coef0": 0.0, "decision_function_shape": "ovr", "degree": 3, "gamma": "scale", "kernel": "poly", "max_iter": -1, "probability": false, "random_state": null, "shrinking": true, "tol": 0.001, "verbose": false}
+Accuracy:
+0.9354838709677419
+fpr, tpr, AUC:
+[0.0, 0.0, 1.0]
+[0.0, 0.7777777777777778, 1.0]
+0.8888888888888888
+Sensitivity Vs. Specificity:
+[0.7777777777777778, 1.0]
