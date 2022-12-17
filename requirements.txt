@@ -1,5 +1,5 @@
 matplotlib
 scipy
-sklearn
+scikit-learn
 xgboost
 lifelines
