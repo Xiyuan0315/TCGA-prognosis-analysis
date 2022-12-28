@@ -5,7 +5,7 @@ from datetime import date
 
 
 today = date.today()
-st.sidebar.image("/Users/xiyuanzhang/Desktop/Iwant.png", use_column_width=True)
+st.sidebar.image("Iwant.png", use_column_width=True)
 page = st.sidebar.selectbox("Explore Or Predict", ("Explore","Predict"))
 st.sidebar.text(f"Edited by Xiyuan\nModifyied on {today.strftime('%b %d, %Y')}")
 if page == "Predict":
