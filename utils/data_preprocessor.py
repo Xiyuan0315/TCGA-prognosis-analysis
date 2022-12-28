@@ -7,7 +7,7 @@ import pandas as pd
 class useful_genes():
     def __init__(self):
         self.drop_feature_list = ['X_PATIENT', 'OS.time', 'OS']
-        self.path = '/Users/xiyuanzhang/Desktop/SZBL/scRNA/cox/Bulk/filtered_gene/'
+        self.path = 'data/filtered_gene/'
         self.gene_dic = {}
         self.gene_dic['CD8Tex'] = pd.read_csv(self.path + 'bayes_CD8Tex.csv',
                                 usecols = [0])['gene'].tolist()
